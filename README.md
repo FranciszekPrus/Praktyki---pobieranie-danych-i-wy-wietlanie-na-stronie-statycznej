@@ -1,0 +1,1 @@
+# Praktyki---pobieranie-danych-i-wy-wietlanie-na-stronie-statycznej
