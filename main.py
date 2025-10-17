@@ -80,7 +80,7 @@ def pobierz_swieta():
             return ["Brak danych dotyczących świąt"]
     except Exception as e:
         print(f"Błąd pobierania świąt{e}")
-        return ["Brak danych dotyczących świętąt"]
+        return ["Brak danych dotyczących święta"]
 
 
 def pobierz_imieniny():
@@ -266,3 +266,4 @@ with open(plik, "w", encoding="utf-8") as f:
     f.write(html)
 
 webbrowser.open(f"file://{os.path.abspath(plik)}")
+
